@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TrainingPractice(failed)">
+    <classes>
+      <class name="TestProject.tests_Testng.TestNGTest">
+        <methods>
+          <include name="addUserTestCase4"/>
+          <include name="addUserTestCase3"/>
+          <include name="addUserTestCase5"/>
+          <include name="addUserTestCase1"/>
+          <include name="searchUserTestCase1"/>
+          <include name="searchUserTestCase2"/>
+          <include name="closePage"/>
+          <include name="initiatePage"/>
+          <include name="addUserTestCase2"/>
+        </methods>
+      </class> <!-- TestProject.tests_Testng.TestNGTest -->
+    </classes>
+  </test> <!-- TrainingPractice(failed) -->
+</suite> <!-- Failed suite [Smoke suite] -->

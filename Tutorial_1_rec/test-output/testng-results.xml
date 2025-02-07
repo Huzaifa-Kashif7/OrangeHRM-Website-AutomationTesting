@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-07T19:37:03Z" name="Smoke suite" finished-at="2025-02-07T19:39:40Z" duration-ms="156641">
+    <groups>
+    </groups>
+    <test started-at="2025-02-07T19:37:03Z" name="TrainingPractice" finished-at="2025-02-07T19:39:40Z" duration-ms="156641">
+      <class name="TestProject.tests_Testng.TestNGTest">
+        <test-method is-config="true" signature="initiatePage()[pri:0, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:37:03Z" name="initiatePage" finished-at="2025-02-07T19:37:13Z" duration-ms="9861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatePage -->
+        <test-method signature="addUserTestCase1()[pri:1, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:37:13Z" name="addUserTestCase1" description="Add User1" finished-at="2025-02-07T19:37:33Z" duration-ms="20213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTestCase1 -->
+        <test-method signature="addUserTestCase2()[pri:2, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:37:33Z" name="addUserTestCase2" description="Add User2" finished-at="2025-02-07T19:37:53Z" duration-ms="20365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTestCase2 -->
+        <test-method signature="addUserTestCase3()[pri:3, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:37:53Z" name="addUserTestCase3" description="Add User3" finished-at="2025-02-07T19:38:13Z" duration-ms="19623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTestCase3 -->
+        <test-method signature="addUserTestCase4()[pri:4, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:38:13Z" name="addUserTestCase4" description="Add User4" finished-at="2025-02-07T19:38:36Z" duration-ms="22602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTestCase4 -->
+        <test-method signature="addUserTestCase5()[pri:5, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:38:36Z" name="addUserTestCase5" description="Add User5" finished-at="2025-02-07T19:38:56Z" duration-ms="20603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTestCase5 -->
+        <test-method signature="searchUserTestCase1()[pri:6, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:38:56Z" name="searchUserTestCase1" description="Search User1" finished-at="2025-02-07T19:39:16Z" duration-ms="19712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserTestCase1 -->
+        <test-method signature="searchUserTestCase2()[pri:7, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:39:16Z" name="searchUserTestCase2" description="Search User2" finished-at="2025-02-07T19:39:28Z" duration-ms="11562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserTestCase2 -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestProject.tests_Testng.TestNGTest@704921a5]" started-at="2025-02-07T19:39:28Z" name="closePage" finished-at="2025-02-07T19:39:40Z" duration-ms="12054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- TestProject.tests_Testng.TestNGTest -->
+    </test> <!-- TrainingPractice -->
+  </suite> <!-- Smoke suite -->
+</testng-results>

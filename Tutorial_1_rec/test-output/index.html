@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Smoke_suite" class="navigator-link">
+              <span class="suite-name border-passed">Smoke suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Smoke_suite" class="navigator-link ">
+                    <span>D:\FAST-NU\FAST Uni Projects\FAST Uni Projects\SQE Assignment-02 - Copy\SQE Assignment-02 - Copy\Tutorial_1_rec\src\test\java\TestProject\RunnerFile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Smoke_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Smoke_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Smoke_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Smoke_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Smoke_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Smoke_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smoke_suite" class="hide-methods passed suite-Smoke_suite"> (hide)</a> <!-- hide-methods passed suite-Smoke_suite -->
+                      <a href="#" panel-name="suite-Smoke_suite" class="show-methods passed suite-Smoke_suite"> (show)</a> <!-- show-methods passed suite-Smoke_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Smoke_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="addUserTestCase1">addUserTestCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="addUserTestCase2">addUserTestCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="addUserTestCase3">addUserTestCase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="addUserTestCase4">addUserTestCase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="addUserTestCase5">addUserTestCase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="searchUserTestCase1">searchUserTestCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_suite" title="TestProject.tests_Testng.TestNGTest" class="method navigator-link" hash-for-method="searchUserTestCase2">searchUserTestCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Smoke_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke_suite" class="panel Smoke_suite">
+          <div class="suite-Smoke_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestProject.tests_Testng.TestNGTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserTestCase1">
+                  </a> <!-- addUserTestCase1 -->
+                  <span class="method-name">addUserTestCase1</span>
+                  <em>
+(Add User1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserTestCase2">
+                  </a> <!-- addUserTestCase2 -->
+                  <span class="method-name">addUserTestCase2</span>
+                  <em>
+(Add User2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserTestCase3">
+                  </a> <!-- addUserTestCase3 -->
+                  <span class="method-name">addUserTestCase3</span>
+                  <em>
+(Add User3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserTestCase4">
+                  </a> <!-- addUserTestCase4 -->
+                  <span class="method-name">addUserTestCase4</span>
+                  <em>
+(Add User4)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserTestCase5">
+                  </a> <!-- addUserTestCase5 -->
+                  <span class="method-name">addUserTestCase5</span>
+                  <em>
+(Add User5)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUserTestCase1">
+                  </a> <!-- searchUserTestCase1 -->
+                  <span class="method-name">searchUserTestCase1</span>
+                  <em>
+(Search User1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUserTestCase2">
+                  </a> <!-- searchUserTestCase2 -->
+                  <span class="method-name">searchUserTestCase2</span>
+                  <em>
+(Search User2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_suite-class-passed -->
+        </div> <!-- panel Smoke_suite -->
+        <div panel-name="test-xml-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\FAST-NU\FAST Uni Projects\FAST Uni Projects\SQE Assignment-02 - Copy\SQE Assignment-02 - Copy\Tutorial_1_rec\src\test\java\TestProject\RunnerFile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Smoke suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TrainingPractice&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestProject.tests_Testng.TestNGTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TrainingPractice --&gt;
+&lt;/suite&gt; &lt;!-- Smoke suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TrainingPractice (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke_suite');
+function tableData_Smoke_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addUserTestCase4')
+data.setCell(0, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(0, 3, 22602);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addUserTestCase5')
+data.setCell(1, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(1, 3, 20603);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addUserTestCase2')
+data.setCell(2, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(2, 3, 20365);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addUserTestCase1')
+data.setCell(3, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(3, 3, 20213);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchUserTestCase1')
+data.setCell(4, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(4, 3, 19712);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addUserTestCase3')
+data.setCell(5, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(5, 3, 19623);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchUserTestCase2')
+data.setCell(6, 2, 'TestProject.tests_Testng.TestNGTest')
+data.setCell(6, 3, 11562);
+window.suiteTableData['Smoke_suite']= { tableData: data, tableDiv: 'times-div-Smoke_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Smoke_suite">
+              </div> <!-- times-div-Smoke_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestProject.tests_Testng.TestNGTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initiatePage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addUserTestCase1</span>
+                <span class="method-start">9869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUserTestCase2</span>
+                <span class="method-start">30086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUserTestCase3</span>
+                <span class="method-start">50451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUserTestCase4</span>
+                <span class="method-start">70074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUserTestCase5</span>
+                <span class="method-start">92687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchUserTestCase1</span>
+                <span class="method-start">113291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchUserTestCase2</span>
+                <span class="method-start">133012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closePage</span>
+                <span class="method-start">144574 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
